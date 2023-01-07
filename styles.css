@@ -4,7 +4,10 @@ body {
     background: rgb(17, 17, 17);
     font-family: Arial, Helvetica, sans-serif;
     color: #eee;
+    display: flex;
+    flex-direction: column;
 }
+
 
 a {
     text-decoration: none;
@@ -17,6 +20,14 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 .header {
@@ -98,17 +109,11 @@ ul {
 
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
 
-.content {
-    flex: 1;
+.footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    background-color: black;
+    padding: 20px;
 }
 
 
