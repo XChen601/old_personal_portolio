@@ -53,6 +53,7 @@ ul {
 }
 
 .Projects {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,8 +113,9 @@ ul {
 
 .footer {
     display: flex;
-    background-color: black;
+    background: rgb(10, 10, 10);
     padding: 20px;
+    justify-content: space-between;
 }
 
 
