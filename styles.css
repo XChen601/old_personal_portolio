@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -31,7 +35,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .header {
@@ -50,11 +54,20 @@ h1 {
     gap: 15px;
 }
 
-.Introduction {
+.introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    flex-wrap: wrap;
+}
+
+.introduction-inner {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    gap: 45px;
+    
 }
 
 .Projects {
@@ -119,7 +132,7 @@ h1 {
 .footer {
     display: flex;
     background: rgb(10, 10, 10);
-    padding: 20px;
+    padding: 20px 30px;
     justify-content: space-between;
 }
 
