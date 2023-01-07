@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: rgb(40, 40, 40);
+    background: rgb(17, 17, 17);
     font-family: Arial, Helvetica, sans-serif;
     color: #eee;
 }
@@ -54,7 +54,7 @@ ul {
 }
 
 .item {
-    border: 1px solid rgb(158, 158, 158);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 10px;
     box-sizing: border-box;
@@ -62,10 +62,13 @@ ul {
     width: 270px;
     cursor: pointer;
     position: relative;
+    background-color: rgba(255,255,255,.02);
+    transition: transform .5s ease-in-out;
 }
 
 .item:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
+
 }
 .item:hover::before {
     opacity: 1;
