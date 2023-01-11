@@ -13,3 +13,19 @@ const handleOnMouseMove = e => {
 for(const item of document.querySelectorAll(".item")) {
     item.onmousemove = e => handleOnMouseMove(e);
 }
+
+const items = document.querySelectorAll('.item');
+
+items.forEach(item => item.addEventListener('click', function (e) {
+    
+    if (item.classList.contains('clicked')) {
+        item.classList.remove('clicked');
+    }
+    else item.classList.add('clicked')
+}))
+
+items.forEach(item => item.addEventListener('click', function (e) {
+}))
+
+
+

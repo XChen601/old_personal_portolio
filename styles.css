@@ -15,7 +15,7 @@ body {
 
 a {
     text-decoration: none;
-    color:teal;
+    color:rgb(52, 193, 218);
 }
 
 ul {
@@ -27,7 +27,7 @@ ul {
 }
 
 h1 {
-    color: rgb(227, 253, 255);
+    color:rgb(52, 193, 218);
 }
 
 .content {
@@ -135,6 +135,14 @@ h1 {
     background: rgb(10, 10, 10);
     padding: 20px 30px;
     justify-content: space-between;
+}
+
+.clicked {
+    box-shadow: inset 0px 0px 8px rgb(56, 243, 250);
+    transform: scale(1.08);
+
+
+    
 }
 
 
