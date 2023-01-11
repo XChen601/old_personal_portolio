@@ -20,12 +20,23 @@ items.forEach(item => item.addEventListener('click', function (e) {
     
     if (item.classList.contains('clicked')) {
         item.classList.remove('clicked');
+        return;
     }
-    else item.classList.add('clicked')
+    else if(document.querySelector(".clicked")) {
+        document.querySelector(".clicked").classList.remove('clicked');
+    }
+    item.classList.add('clicked')
 }))
 
-items.forEach(item => item.addEventListener('click', function (e) {
-}))
+document.addEventListener("click", (evt) => {
+    const openedElement = document.querySelector(".clicked");
+    let clickedElement = evt.target; // clicked element      
+  
+    if (clickedElement != openedElement) {
+        openedElement.classList.remove('clicked');
+    }
+  });
+
 
 
 
