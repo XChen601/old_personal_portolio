@@ -1,3 +1,4 @@
+// get mouse position
 const handleOnMouseMove = e => {
     const { currentTarget: target } = e;
 
@@ -28,9 +29,9 @@ items.forEach(item => item.addEventListener('click', function (e) {
     item.classList.add('clicked')
 }))
 
-document.addEventListener("click", (evt) => {
+document.addEventListener("click", (e) => {
     const openedElement = document.querySelector(".clicked");
-    let clickedElement = evt.target; // clicked element      
+    let clickedElement = e.target; // clicked element      
   
     if (clickedElement != openedElement) {
         openedElement.classList.remove('clicked');

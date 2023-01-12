@@ -157,16 +157,13 @@ h1 {
 }
 
 /*images pop ups*/
-.item {
-    z-index: 1;
-}
+
 .item img {
     max-width: 300px;
     max-height: 400px;
     position: absolute;
     opacity: 0;
     transition: all .5s ease;
-    z-index: -1;
 
 }
 
