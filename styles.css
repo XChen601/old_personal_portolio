@@ -75,7 +75,7 @@ h1 {
 }
 
 .Projects {
-    margin-top: 25px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +164,7 @@ h1 {
     position: absolute;
     opacity: 0;
     transition: all .5s ease;
-
+    z-index: -1; /* makes text appear above img */
 }
 
 .clicked img {

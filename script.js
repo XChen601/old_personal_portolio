@@ -18,9 +18,10 @@ for(const item of document.querySelectorAll(".item")) {
 const items = document.querySelectorAll('.item');
 
 items.forEach(item => item.addEventListener('click', function (e) {
-    
+    console.log('test')
     if (item.classList.contains('clicked')) {
         item.classList.remove('clicked');
+        console.log('test1')
         return;
     }
     else if(document.querySelector(".clicked")) {
@@ -31,9 +32,11 @@ items.forEach(item => item.addEventListener('click', function (e) {
 
 document.addEventListener("click", (e) => {
     const openedElement = document.querySelector(".clicked");
-    let clickedElement = e.target; // clicked element      
+    let clickedElement = e.target.id; // clicked element 
+    console.log(e.target.id)
+    console.log(`opened:${openedElement.id} clicked:${clickedElement}`)     
   
-    if (clickedElement != openedElement) {
+    if (clickedElement != openedElement.id) {
         openedElement.classList.remove('clicked');
     }
   });
