@@ -1,5 +1,7 @@
 # Personal Portfolio Site
 
+[Website Here](https://xchen601.github.io/personal_portfolio/)
+or
 https://xchen601.github.io/personal_portfolio/
 
 Credit to Hyperplexed for the circular light effect on hover.
