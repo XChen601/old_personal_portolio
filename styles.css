@@ -82,10 +82,9 @@ h1 {
 }
 .project-items {
     display: flex;
-    flex-direction: column;
-    gap: 50px;
+    gap: 250px;
     flex-wrap: wrap;
-    margin: 15px 150px;
+    margin: 15px 350px;
     justify-content: center;
 }
 
