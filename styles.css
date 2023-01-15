@@ -82,9 +82,9 @@ h1 {
 }
 .project-items {
     display: flex;
-    gap: 250px;
+    gap: 270px;
     flex-wrap: wrap;
-    margin: 15px 350px;
+    margin: 15px 300px;
     justify-content: center;
 }
 
@@ -184,7 +184,7 @@ h1 {
 }
 
 .clicked .img3 {
-    translate: -280px 140px;
+    translate: -220px 150px;
 }
 
 .clicked .img4 {
