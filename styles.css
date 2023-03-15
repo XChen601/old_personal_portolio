@@ -87,7 +87,7 @@ h1 {
 .project-items {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px 170px;
+    margin: 15px 110px;
     justify-content: center;
 }
 
